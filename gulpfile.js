@@ -9,3 +9,5 @@ function styles() {
             .pipe(gulp.dest("css"))
     );
 }
+
+exports.styles = styles;
