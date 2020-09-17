@@ -1,2 +1,5 @@
 body {
   background: #ff00; }
+
+nav {
+  display: flex; }

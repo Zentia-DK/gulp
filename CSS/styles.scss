@@ -3,3 +3,7 @@ $primary : #ff00;
 body{
   background: $primary;
 }
+
+nav{
+  display: flex;
+}
