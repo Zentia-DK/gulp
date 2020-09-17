@@ -1,6 +1,8 @@
 const gulp = require("gulp");
 const sass= require("gulp-sass");
 const sourcemaps = require("gulp-sourcemaps");
+const postcss = require("gulp-postcss");
+const autoprefixer = require("autoprefixer");
 
 
 function styles() {
@@ -8,6 +10,7 @@ function styles() {
         gulp.src("css/*.scss")
             .pipe(sourcemaps.init())
             .pipe(sass())
+            //.pipe(postcss([autoprefixer((grid:true)]))
             .pipe(sourcemaps.write("."))
             .pipe(gulp.dest("css"))
     );

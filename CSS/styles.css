@@ -1,7 +1,8 @@
 body {
-  background: #ff00; }
+  background: #ff00;
+  user-select: none; }
 
 nav {
-  display: flex; }
+  display: grid; }
 
 /*# sourceMappingURL=styles.css.map */
