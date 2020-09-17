@@ -11,3 +11,10 @@ function styles() {
 }
 
 exports.styles = styles;
+
+function watch() {
+    gulp.watch("css/*scss", styles);
+
+}
+
+exports.watch = watch;
